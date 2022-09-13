@@ -1,0 +1,82 @@
+
+h1,h2,h3,h4,p{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+h1{
+    font-size: 48px;
+    font-weight: 600;
+}
+h2{
+    font-weight: 600;
+    font-size: 18px;
+}
+h3{
+    font-weight: 600;
+    font-size: 16px;
+}
+p{
+    font-weight: 300;
+    font-size: 16px;
+}
+.logo img{
+    height: 160px;
+}
+.logo-sec{
+    height: 170px;
+    background-color: white;
+}
+.header{
+    background-color: white;
+    width: 100%;
+}
+.head-txt{
+    margin-top: 120px;
+}
+.body-sec{
+    background-color: #efefef;
+    width: 100%;
+    height: 100vh;
+}
+.container2{
+    max-width: 608px;
+}
+.card-1{
+    background-color: white;
+    border-radius: 10px;
+}
+.card-bg{
+    
+}
+.card-1 p{
+    font-size: 18px;
+}
+.cookie-img img{
+    width: 160px;
+}
+/* //////I used flex here///// */
+.flex-container {
+    display: flex;
+    flex-direction: row;
+  }
+.flex-item{
+    padding: 0px 5px;
+
+}
+
+/* /////JS Animations/////// */
+.rotate {
+    transform: rotate(-180deg);
+    /*transform: rotate(180deg);*/
+    transition: .3s;
+}
+.rotate-reset {
+    transform: rotate(0deg);
+    transition: .3s;
+}
+.recipie{
+    display: none;
+}
+.recipie-show{
+    display: block;
+}
